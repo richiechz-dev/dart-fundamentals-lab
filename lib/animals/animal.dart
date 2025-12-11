@@ -21,7 +21,7 @@ class Animal {
 class Perro extends Animal {
   String subSpecie;
 
-  Perro(this.subSpecie, String name, String raza, String tamano ) :super(name,raza,tamano);
+  Perro(this.subSpecie, String name, String raza, String tamano ) :super(name,raza,tamano); //:super me permite inicializar mis propiedades de mi constructor Padre o superclase. Por eso primero pido mis dtos de mi subclase como "subSpecie".
 
 
   // Sobreescribi un metodo del padre
