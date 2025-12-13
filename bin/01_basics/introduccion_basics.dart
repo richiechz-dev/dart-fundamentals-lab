@@ -1,7 +1,10 @@
-// Se debe importar nuestra clase helado para poder crear la instancia del objeto
 import 'package:dart_learn_basics/models/01_ice_cream.dart';
+// Se debe importar nuestra clase helado para poder crear la instancia del objeto
 
 // todo: Crear la funcion de fibonacci
+
+
+
 int fibonacci(var n) {
   if (n == 0 || n == 1) return n;
   return fibonacci(n - 1) + fibonacci(n - 2);
