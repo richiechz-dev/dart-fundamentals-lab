@@ -6,10 +6,10 @@ void main() {
 
 }
 
-void sync1(){
-  for (int i = 1; 1 <= 5; i ++) {
+Future<void> sync1()async{
+  for (int i = 1; i <= 5; i ++) {
     print(i);
-    sleep(Duration(seconds: 1));
+    await Future.delayed(Duration(seconds: 1));
   }
 }
 
